@@ -24,5 +24,3 @@ services:
       - "mode=standalone"
     volumes:
       - ./data/redis:/data
-    ports:
-      - "6379:6379"
